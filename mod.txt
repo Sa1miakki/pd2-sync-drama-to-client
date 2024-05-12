@@ -1,0 +1,19 @@
+{
+	"name": "drama sync test",
+	"description": "sync host drama to client",
+	"author": "Sa1miakki",
+	"contact": " ",
+	"version": "1.0",
+	"blt_version": 2,
+        "updates" : [
+		{
+			"identifier" : "pd2_drsyte",
+			"host" : {
+				"meta" : "https://raw.githubusercontent.com/Sa1miakki/pd2-player-state-continued/main/meta.json"
+			}
+		}
+	],
+        "persist_scripts" :
+	[
+		{"global" : "syncTEST", "script_path" : "sync.lua"}
+	]}
