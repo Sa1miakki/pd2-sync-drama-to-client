@@ -1,5 +1,5 @@
 {
-	"name": "drama sync test",
+	"name": "sync drama to client",
 	"description": "sync host drama to client",
 	"author": "Sa1miakki",
 	"contact": " ",
@@ -9,7 +9,7 @@
 		{
 			"identifier" : "pd2_drsyte",
 			"host" : {
-				"meta" : "https://raw.githubusercontent.com/Sa1miakki/pd2-player-state-continued/main/meta.json"
+				"meta" : "https://raw.githubusercontent.com/Sa1miakki/pd2-sync-drama-to-client/main/meta.json"
 			}
 		}
 	],
