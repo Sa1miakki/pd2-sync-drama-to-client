@@ -1,5 +1,5 @@
 local Net = _G.LuaNetworking
-local host_drama = string.format("%.2f", managers.groupai:state()._drama_data.amount) or 100
+local host_drama = string.format("%.2f", managers.groupai:state()._drama_data.amount) or 1
 
 if Network:is_server() then Net:SendToPeers("this_sync_test", tostring(host_drama)) end
 --managers.chat:send_message(ChatManager.GAME, managers.network.account:username() or "Offline", "self working detect" .. host_drama)
